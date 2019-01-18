@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import TodoList from "./TodoList";
+import IpAddressContainer from "./IpAddressContainer";
 
 var destination = document.querySelector("#container");
 
 ReactDOM.render(
     <div>
-        <TodoList/>
+        <IpAddressContainer/>
     </div>,
     destination
 );
